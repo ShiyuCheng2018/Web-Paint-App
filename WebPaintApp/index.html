@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+        <title>Paint</title>
+        <script type="text/javascript" src="js/paint.js"></script>
+        <link rel="stylesheet" type="text/css" href="css/paint.css">
+        <link rel="shortcut icon" href="img/brush.png" type="image/x-icon"/>
+</head>
+
+<body>
+
+    <h1>Web Painting Application</h1>
+
+    <div id = container>
+        <div id = left>
+            <canvas id="window" width="700" height="500"></canvas>
+        </div>
+
+        <div id = right>
+            <canvas id="colorSelector" width="100" height="100"></canvas>
+
+            <div id = "panSize">
+                <h5>pen size:</h5>
+                <button id="+">+</button>
+                <button id="-">-</button>
+                <canvas id="penSizeSelector" width="50" height="50"></canvas>
+            </div>
+
+            <div id="modes">
+                <button id="pen">pen</button>
+                <button id = "circle">circle</button>
+                <button id = "squares">squares</button>
+                <button id="lines">lines</button>
+                <button id="clear">clear</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,46 @@
+body{
+    background-color: black;
+    font-family: Helvetica, sans-serif;
+    color: white;
+}
+
+h1{
+    text-align: center;
+}
+
+#container{
+    width: 815px;
+    height: 600px;
+    margin: 0 auto;
+}
+
+#window, #penSizeSelector, #colorSelector{
+    background-color: white;
+}
+
+#left{
+    float: left;
+}
+
+#right{
+    float: right;
+    width: 100px;
+    height: auto;
+}
+
+#panSize{
+    height: 100px;
+    margin: 15px;
+}
+
+#modes{
+    margin-top: 20px;
+}
+
+#modes button{
+    width: 80px;
+    height: 30px;
+    margin: 5px;
+    font-weight: bold;
+}
+
